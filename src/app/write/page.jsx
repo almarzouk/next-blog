@@ -7,7 +7,6 @@ import "react-quill/dist/quill.bubble.css";
 import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
 
-// ✅ استيراد ReactQuill فقط في المتصفح
 const ReactQuill = dynamic(() => import("react-quill"), { ssr: false });
 
 const WritePage = () => {
