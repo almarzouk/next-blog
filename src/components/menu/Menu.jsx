@@ -1,7 +1,7 @@
 import Link from "next/link";
 import styles from "./menu.module.css";
-import { MenuPosts } from "../menuPosts/MenuPosts";
-import { MenuCategories } from "../menuCategories/menuCategories";
+import MenuPosts from "../menuPosts/MenuPosts";
+import MenuCategories from "../menuCategories/menuCategories";
 function Menu() {
   return (
     <div className={styles.container}>
