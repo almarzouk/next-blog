@@ -1,6 +1,5 @@
 import styles from "./menu.module.css";
 import { MenuPosts } from "../menuPosts/MenuPosts.jsx";
-
 import { MenuCategories } from "../menuCategories/MenuCategories.jsx";
 function Menu() {
   return (
